@@ -1,0 +1,21 @@
+<div class="container" style="padding-top: 25px;">
+  <div class="columns">
+    <div class="column is-8">
+      <p class="subtitle is-size-7" style="padding-top:20px;">Hoteles disponibles</p>
+    </div>
+
+    <div class="column is-4">
+      <div class="is-pulled-right">
+        <div class="select">
+          <select (change)="onChange($event)">>
+            <option value="price-ASC">Precio más bajo</option>
+            <option value="price-DESC">Precio más alto</option>
+            <option value="stars-ASC">Menos estrellas</option>
+            <option value="stars-DESC">Más estrellas</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

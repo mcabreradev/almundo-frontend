@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="columns">
+    <div class="column is-3 aside hero is-fullheight">
+      <almundo-filters></almundo-filters>
+    </div>
+
+    <div class="column content is-9">
+      <almundo-hotel 
+        *ngFor="let hotel of hotels" 
+        [hotel]="hotel">
+      </almundo-hotel>
+      <div *ngIf="!hotels?.length">
+        No encontramos hoteles, por favor intenta con otro nombre!
+      </div>
+
+    </div>
+  </div>
+</div>
