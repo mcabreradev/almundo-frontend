@@ -7,4 +7,4 @@
 1. Build server - `npm run build`
 1. Run the development server - `npm start`
 
-Now visit http://localhost:3000/api/v1/hotels# almundo-api
+Now visit http://localhost:9000
