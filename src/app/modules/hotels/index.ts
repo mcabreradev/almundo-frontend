@@ -21,7 +21,7 @@ import { MoneyPipe }  from '../../pipes/money.pipe';
     HotelComponent,
     FiltersComponent,
     NumberToArrayPipe,
-    MoneyPipe
+    MoneyPipe,
   ],
   exports: [
     HotelsComponent

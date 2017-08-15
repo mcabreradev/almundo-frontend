@@ -5,6 +5,7 @@ import { HotelsService } from './hotels.service';
 import { EventService } from '../../services/event.service';
 
 import * as _ from 'lodash';
+
 import _Filter = require('../../libs/filter.lib.js');
 
 export class Hotel {
@@ -23,6 +24,7 @@ export class Hotel {
 export class HotelsComponent implements OnInit {
   public hotels: Hotel[];
   public hotels_original: Hotel[];
+  public stars_searches: Array<any> = [];
   public hotel: Hotel;
 
   constructor(private _hotelsService: HotelsService) {
@@ -47,14 +49,29 @@ export class HotelsComponent implements OnInit {
       .get('orderBy')
       .subscribe(value => {
         const _value = value.split('-');
-        this.hotels = _value[1] === 'ASC' ? _.sortBy(this.hotels_original, [_value[0]]) : _.reverse(_.sortBy(this.hotels_original, [_value[0]]));
+        this.hotels = _value[1] === 'ASC' ? _.sortBy(this.hotels, [_value[0]]) : _.reverse(_.sortBy(this.hotels, [_value[0]]));
       });
   }
 
   subscribeStars() {
     EventService
       .get('stars')
-      .subscribe( value => this.hotels = _.isUndefined(value) ? this.hotels_original : _Filter(this.hotels_original, value ));
+      .subscribe(hotel => {
+        let stars_searches = [];
+
+        if (_.isEqual(hotel.stars.length, 0)) {
+          this.hotels = this.hotels_original;
+          return;
+        }
+
+        hotel.stars.map(star => {
+          _Filter(this.hotels_original, {stars: star}).map(hotel => {
+            stars_searches.push(hotel);
+          });
+        });
+
+        this.hotels = _.uniq(stars_searches);
+      });
   }
 
   subscribeHotel() {

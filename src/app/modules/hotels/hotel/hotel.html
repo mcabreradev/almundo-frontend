@@ -7,7 +7,7 @@
         </div>
         <div class="media-content">
           <div class="content">
-            <p><strong class="has-text-info">Hotel {{ hotel.name }}</strong></p>
+            <p><strong class="has-text-info">{{ hotel.name }}</strong></p>
           </div>
           <nav class="level">
             <div class="level-left">
@@ -23,7 +23,7 @@
     <div class="column is-3">
       <div class="has-text-centered">
         <p class="is-size-7">Precio por noche por habitación</p>
-        <p> 
+        <p>
           <span class="is-size-6 has-text-danger">ARS</span>
           <span class="title is-3 has-text-muted is-size-3 has-text-danger">{{ hotel.price | money }}</span>
         </p>

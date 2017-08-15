@@ -17,16 +17,22 @@
       <label class="label is-size-7 has-text-info">
         <span class="icon is-small"><i class="fa fa-star"></i></span> Estrellas
       </label>
-      
-      <label class="radio" style="padding-bottom: 20px">
-        <input type="radio" style="margin-right: 10px;" (click)="onClick()" name="stars"> Todas las estrellas
+
+      <label class="checkbox" style="padding-bottom: 20px">
+        <input type="checkbox" style="margin-right: 10px;" (click)="onClick(0)" name="stars"> Todas las estrellas
       </label>
 
-      <nav class="level" *ngFor="let stars of 5 | numberToArray">
-        <label class="level-left radio">
-          <input type="radio" style="margin-right: 10px;" (click)="onClick(5 - stars)" name="stars">
+      <nav class="level" *ngFor="let star of stars">
+        <label class="level-left checkbox">
+          <input
+            type="checkbox"
+            style="margin-right: 10px;"
+            (click)="onClick(star.value)"
+            [checked]="star.checked == true"
+            [disabled]="star.checked == true"
+            name="stars">
           <div class="level-left">
-            <span class="level-item" *ngFor="let key of (5 - stars) | numberToArray">
+            <span class="level-item" *ngFor="let key of star.value | numberToArray">
               <span class="icon is-small has-text-warning"><i class="fa fa-star"></i></span>
             </span>
           </div>
