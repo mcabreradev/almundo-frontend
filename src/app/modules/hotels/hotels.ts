@@ -77,6 +77,6 @@ export class HotelsComponent implements OnInit {
   subscribeHotel() {
     EventService
       .get('hotel')
-      .subscribe( value => this.hotels = _.isUndefined(value) || value === '' ? this.hotels_original : _Filter(this.hotels_original, value));
+      .subscribe( value => this.hotels = _.isUndefined(value.name) || value.name === '' ? this.hotels_original : _Filter(this.hotels_original, value.name));
   }
 }
