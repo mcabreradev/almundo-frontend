@@ -6,7 +6,7 @@ import { EventService } from '../../services/event.service';
 
 import * as _ from 'lodash';
 
-import _Filter = require('../../libs/filter.lib.js');
+import filter from '../../libs/filter.lib.js';
 
 export class Hotel {
   constructor(
@@ -65,7 +65,7 @@ export class HotelsComponent implements OnInit {
         }
 
         hotel.stars.map(star => {
-          _Filter(this.hotels_original, {stars: star}).map(hotel => {
+          filter(this.hotels_original, {stars: star}).map(hotel => {
             stars_searches.push(hotel);
           });
         });
@@ -77,6 +77,6 @@ export class HotelsComponent implements OnInit {
   subscribeHotel() {
     EventService
       .get('hotel')
-      .subscribe( value => this.hotels = _.isUndefined(value.name) || value.name === '' ? this.hotels_original : _Filter(this.hotels_original, value.name));
+      .subscribe( value => this.hotels = _.isUndefined(value.name) || value.name === '' ? this.hotels_original : filter(this.hotels_original, value.name));
   }
 }
