@@ -1,0 +1,908 @@
+repo_name: mcabreradev/almundo-frontend
+report_id: 821581c6e174c0925453a047f680dbf8
+repo_type: Public
+timestamp: '2023-11-14T15:29:37+00:00'
+requested_by: mcabreradev
+provider: github
+branch: master
+detected_tools_count: 66
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Bulma
+  description: Free, open source, &amp; modern CSS framework based on Flexbox
+  website_url: http://bulma.io/
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/5204/bulma-logo.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 5.1.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.7.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.10.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/cdk"
+  description: Angular Material Component Development Kit
+  package_url: https://www.npmjs.com/@angular/cdk
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16358/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/http"
+  description: Angular - the http service
+  package_url: https://www.npmjs.com/@angular/http
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15977/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/material"
+  description: Angular Material
+  package_url: https://www.npmjs.com/@angular/material
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16444/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 2.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 3.4.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@types/es6-shim"
+  description: TypeScript definitions for es6-shim
+  package_url: https://www.npmjs.com/@types/es6-shim
+  version: 0.31.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17176/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 2.5.53
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.72
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 7.0.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 7.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.18.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: es6-shim
+  description: ECMAScript 6
+  package_url: https://www.npmjs.com/es6-shim
+  version: 0.35.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16346/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: eslint-config-xo-space
+  description: ESLint shareable config for XO with 2-space indent
+  package_url: https://www.npmjs.com/eslint-config-xo-space
+  version: 0.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16390/default_f1e46d83300118af569c79b07f85830bc788c2d1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: eslint-loader
+  description: ESlint loader for webpack
+  package_url: https://www.npmjs.com/eslint-loader
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15889/default_724d5bc657ec09174564f19f2a5d26098549124a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: eslint-plugin-babel
+  description: An eslint rule plugin companion to babel-eslint
+  package_url: https://www.npmjs.com/eslint-plugin-babel
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15988/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: extract-text-webpack-plugin
+  description: Extract text from bundle into a file
+  package_url: https://www.npmjs.com/extract-text-webpack-plugin
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: gulp-filter
+  description: Filter files in a `vinyl` stream
+  package_url: https://www.npmjs.com/gulp-filter
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16385/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: hammerjs
+  description: A javascript library for multi-touch gestures
+  package_url: https://www.npmjs.com/hammerjs
+  version: 2.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16521/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 0.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: intl
+  description: Polyfill the ECMA-402 Intl API
+  package_url: https://www.npmjs.com/intl
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16877/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: karma-junit-reporter
+  description: A Karma plugin. Report results in junit xml format
+  package_url: https://www.npmjs.com/karma-junit-reporter
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16695/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: systemjs
+  description: Dynamic ES module loader
+  package_url: https://www.npmjs.com/systemjs
+  version: 0.20.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16299/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: ts-loader
+  description: TypeScript loader for webpack
+  package_url: https://www.npmjs.com/ts-loader
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: tslint-loader
+  description: Tslint loader for webpack
+  package_url: https://www.npmjs.com/tslint-loader
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16395/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Miguelangel Cabrera
+  last_updated_on: 2017-08-12 12:10:06.000000000 Z
